@@ -1,6 +1,5 @@
-## Understanding React Code-Splitting using React.lazy
+## Understanding react code splitting
 https://reactjs.org/docs/code-splitting.html
 
-NOTE: At the moment you cannot do this.
-import OtherComponent from `./${process.env.BUILD_TARGET}OtherComponent`
-
+**NOTE: Currently you cannot do this.**. 
+`import OtherComponent from `./${process.env.BUILD_TARGET}OtherComponent`
